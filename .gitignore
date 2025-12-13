@@ -1,0 +1,60 @@
+############################
+# Java / Maven
+############################
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+
+
+############################
+# Spring Boot
+############################
+application.properties
+application.yml
+application-*.yml
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# IDE / Editor
+############################
+.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+*.settings/
+/bin
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Docker
+############################
+.env
+docker-data/
+mysql-data/
+
+############################
+# Frontend (if any)
+############################
+node_modules/
+dist/
+build/
+
+############################
+# Temporary Files
+############################
+*.tmp
+*.swp
