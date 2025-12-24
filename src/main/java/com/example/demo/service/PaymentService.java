@@ -59,6 +59,7 @@ public class PaymentService {
         order.setTotalAmount(totalAmount);
         order.setStatus(OrderStatus.PENDING);
         order.setCreatedAt(LocalDateTime.now());
+        order.setUpdatedAt(LocalDateTime.now());
         orderRepository.save(order);
 
         return razorpayOrder.get("id");
